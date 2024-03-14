@@ -10,14 +10,14 @@ CASE WHEN
 				CHARINDEX(':', Result)+1
 				)) = 2 
 	THEN 
-				RIGHT(
-				SUBSTRING(
+		RIGHT(
+			SUBSTRING(
 				Result, 
 				CHARINDEX(':', Result),
 				CHARINDEX(':', Result)+1),1)
 	ELSE 
-				RIGHT(
-				SUBSTRING(
+		RIGHT(
+			SUBSTRING(
 				Result, 
 				CHARINDEX(':', Result),
 				CHARINDEX(':', Result)+1
@@ -34,14 +34,14 @@ CASE WHEN
 				CHARINDEX(':', ShotAt)+1
 				)) = 2 
 	THEN 
-				RIGHT(
-				SUBSTRING(
+		RIGHT(
+			SUBSTRING(
 				ShotAt, 
 				CHARINDEX(':', ShotAt),
 				CHARINDEX(':', ShotAt)+1),1)
 	ELSE 
-				RIGHT(
-				SUBSTRING(
+		RIGHT(
+			SUBSTRING(
 				ShotAt, 
 				CHARINDEX(':', ShotAt),
 				CHARINDEX(':', ShotAt)+1
